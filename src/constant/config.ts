@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS + TypeScript Starter',
-  description:
-    'A starter for Next.js, Tailwind CSS, and TypeScript with Absolute Import, Seo, Link component, pre-configured with Husky',
-  /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  title: 'Novana',
+  description: `Novana helpt teamprocessen te vereenvoudigen en het resultaat te verhogen door gebruik van de combinatie tussen softwarekennis én kennis van het proces. 
+    Nick laat teams van binnenuit groeien door gebruik van gezond verstand en creatieve ideeën.
+    Neem eens contact op als je ideeën wilt opdoen of over mogelijkheden wilt praten.`,
+  url: 'https://www.linkedin.com/in/nicknijenhuis',
 };

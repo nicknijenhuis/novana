@@ -2,11 +2,17 @@
 
 import Head from 'next/head';
 import * as React from 'react';
+import {
+  FaBuilding,
+  FaEnvelope,
+  FaFileAlt,
+  FaMapMarker,
+  FaMapMarkerAlt,
+} from 'react-icons/fa';
 
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
-import UnstyledLink from '@/components/links/UnstyledLink';
 
 /**
  * SVGR Support
@@ -17,51 +23,80 @@ import UnstyledLink from '@/components/links/UnstyledLink';
  */
 import Logo from '~/svg/Logo.svg';
 
-// !STARTERCONF -> Select !STARTERCONF and CMD + SHIFT + F
-// Before you begin editing, follow all comments with `STARTERCONF`,
-// to customize the default configuration.
-
 export default function HomePage() {
   return (
     <main>
       <Head>
-        <title>Hi</title>
+        <title>Novana - Create better software together</title>
       </Head>
-      <section className='bg-white'>
+      <section className='bg-dark'>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          <Logo className='w-16' />
-          <h1 className='mt-4'>Next.js + Tailwind CSS + TypeScript Starter</h1>
-          <p className='mt-2 text-sm text-gray-800'>
-            A starter for Next.js, Tailwind CSS, and TypeScript with Absolute
-            Import, Seo, Link component, pre-configured with Husky{' '}
+          <Logo className='m-10 w-full max-w-96' />
+          <h1 className='hidden mt-4 text-white'>NOVANA</h1>
+          <p className='hidden mt-4 text-white'>
+            Create better software together
           </p>
-          <p className='mt-2 text-sm text-gray-700'>
-            <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
-              See the repository
+          <p className='mt-2 text-sm text-gray-200'>
+            Novana helpt teamprocessen te vereenvoudigen en het resultaat te
+            verhogen door gebruik van de combinatie tussen softwarekennis én
+            kennis van het proces. Nick laat teams van binnenuit groeien door
+            gebruik van gezond verstand en creatieve ideeën. Neem eens contact
+            op als je ideeën wilt opdoen of over mogelijkheden wilt praten.
+          </p>
+
+          <ButtonLink
+            className='mt-6'
+            href='https://www.linkedin.com/in/nicknijenhuis/'
+            target='_blank'
+          >
+            Zie Linked-IN
+          </ButtonLink>
+
+          <section className='bg-dark text-white'>
+            <div className='py-6 text-center space-y-2 mt-2 text-gray-200'>
+              <div className='flex items-center'>
+                <FaMapMarkerAlt className='mr-2 text-primary-400' />
+                <p>
+                  <strong>Carbon6</strong>, N312 - Kloosterweg 1, 6412CN Heerlen{' '}
+                  <span className='italic'>(Bezoekadres)</span>
+                </p>
+              </div>
+              <div className='flex items-center'>
+                <FaEnvelope className='mr-2 text-primary-400' />
+                <a href='mailto:nick@novana.nl'>nick@novana.nl</a>
+              </div>
+              <div className='flex items-center'>
+                <FaBuilding className='mr-2 text-primary-400' />
+                <p>
+                  KVK: <em>71662790</em>
+                </p>
+              </div>
+              <div className='flex items-center'>
+                <FaFileAlt className='mr-2 text-primary-400' />
+                <p>
+                  BTW: <em>NL001203035B92</em>
+                </p>
+              </div>
+              <div className='flex items-center'>
+                <FaMapMarker className='mr-2 text-primary-400' />
+                <p>
+                  Ganzevoet 8, 6444 VP Brunssum{' '}
+                  <span className='italic'>(Factuuradres)</span>
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <p className='mt-10 text-sm text-gray-200'>
+            <ArrowLink href='https://github.com/nicknijenhuis/' target='_blank'>
+              Bekijk mijn projecten op GitHub
             </ArrowLink>
           </p>
 
-          <ButtonLink className='mt-6' href='/components' variant='light'>
-            See all components
-          </ButtonLink>
-
-          <UnstyledLink
-            href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Ftheodorusclarence%2Fts-nextjs-tailwind-starter'
-            className='mt-4'
-          >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              width='92'
-              height='32'
-              src='https://vercel.com/button'
-              alt='Deploy with Vercel'
-            />
-          </UnstyledLink>
-
-          <footer className='absolute bottom-2 text-gray-700'>
+          <footer className='absolute bottom-2 text-gray-100'>
             © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://theodorusclarence.com?ref=tsnextstarter'>
-              Theodorus Clarence
+            <UnderlineLink href='https://www.linkedin.com/in/nicknijenhuis/'>
+              Nick Nijenhuis
             </UnderlineLink>
           </footer>
         </div>
