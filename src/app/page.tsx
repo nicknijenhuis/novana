@@ -8,6 +8,9 @@ import {
   FaFileAlt,
   FaMapMarker,
   FaMapMarkerAlt,
+  FaPhone,
+  FaPhoneAlt,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 import ArrowLink from '@/components/links/ArrowLink';
@@ -32,11 +35,11 @@ export default function HomePage() {
       <section className='bg-dark'>
         <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
           <Logo className='m-10 w-full max-w-96' />
-          <h1 className='hidden mt-4 text-white'>NOVANA</h1>
+          <h1 className='hidden  text-white'>NOVANA</h1>
           <p className='hidden mt-4 text-white'>
             Create better software together
           </p>
-          <p className='mt-2 text-sm text-gray-200'>
+          <p className='mt-2 text-sm text-gray-200 max-w-3xl'>
             Novana helpt teamprocessen te vereenvoudigen en het resultaat te
             verhogen door gebruik van de combinatie tussen softwarekennis én
             kennis van het proces. Nick laat teams van binnenuit groeien door
@@ -57,13 +60,37 @@ export default function HomePage() {
               <div className='flex items-center'>
                 <FaMapMarkerAlt className='mr-2 text-primary-400' />
                 <p>
-                  <strong>Carbon6</strong>, N312 - Kloosterweg 1, 6412CN Heerlen{' '}
-                  <span className='italic'>(Bezoekadres)</span>
+                  <strong>Carbon6</strong>, N312 - Kloosterweg 1, 6412CN Heerlen
                 </p>
               </div>
               <div className='flex items-center'>
                 <FaEnvelope className='mr-2 text-primary-400' />
-                <a href='mailto:nick@novana.nl'>nick@novana.nl</a>
+                <a
+                  className='hover:text-primary-300'
+                  href='mailto:nick@novana.nl'
+                >
+                  nick@novana.nl
+                </a>
+              </div>
+              <div className='flex items-center'>
+                <FaPhone className='mr-2 text-primary-400' />
+                <a className='hover:text-primary-300' href='tel:+31457850849'>
+                  +31 45 785 0849
+                </a>
+                <a className='ml-4 ' href='tel:+31457850849'>
+                  <FaPhoneAlt className='text-cyan-500 hover:text-cyan-200 w-5 h-5' />
+                </a>
+                <a
+                  href='https://wa.me/31457850849'
+                  target='_blank'
+                  className='ml-4'
+                >
+                  <FaWhatsapp className='text-emerald-500 hover:text-emerald-200 w-6 h-6' />
+                </a>
+              </div>
+              <div className='flex items-center'>
+                <FaEnvelope className='mr-2 text-primary-400' />
+                nick@novana.nl
               </div>
               <div className='flex items-center'>
                 <FaBuilding className='mr-2 text-primary-400' />
