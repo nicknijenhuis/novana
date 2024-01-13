@@ -15,7 +15,6 @@ import {
 
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
-import UnderlineLink from '@/components/links/UnderlineLink';
 
 /**
  * SVGR Support
@@ -125,11 +124,10 @@ export default function HomePage() {
             </ArrowLink>
           </p>
 
+          <div className='py-6'></div>
+
           <footer className='absolute bottom-2 text-gray-100'>
-            © {new Date().getFullYear()} By{' '}
-            <UnderlineLink href='https://www.linkedin.com/in/nicknijenhuis/'>
-              Nick Nijenhuis
-            </UnderlineLink>
+            © Novana {new Date().getFullYear()}
           </footer>
         </div>
       </section>
