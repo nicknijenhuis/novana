@@ -5,9 +5,8 @@ import HomePage from '@/app/page';
 describe('Homepage', () => {
   it('renders the Components', () => {
     render(<HomePage />);
+    const email = screen.getByText(/nick@novana.nl/i);
 
-    const heading = screen.getByText(/Novana/i);
-
-    expect(heading).toBeInTheDocument();
+    expect(email).toBeInTheDocument();
   });
 });

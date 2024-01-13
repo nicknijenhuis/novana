@@ -89,10 +89,6 @@ export default function HomePage() {
                 </a>
               </div>
               <div className='flex items-center'>
-                <FaEnvelope className='mr-2 text-primary-400' />
-                nick@novana.nl
-              </div>
-              <div className='flex items-center'>
                 <FaBuilding className='mr-2 text-primary-400' />
                 <p>
                   KVK: <em>71662790</em>
