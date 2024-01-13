@@ -33,8 +33,8 @@ export default function HomePage() {
         <title>Novana - Create better software together</title>
       </Head>
       <section className='bg-dark'>
-        <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          <Logo className='m-10 w-full max-w-96' />
+        <div className='layout relative flex min-h-screen flex-col items-center justify-center text-center'>
+          <Logo className='m-5 w-full max-w-96' />
           <h1 className='hidden  text-white'>NOVANA</h1>
           <p className='hidden mt-4 text-white'>
             Create better software together
@@ -114,7 +114,7 @@ export default function HomePage() {
             </div>
           </section>
 
-          <p className='mt-10 text-sm text-gray-200'>
+          <p className='mt-4 text-sm text-gray-200'>
             <ArrowLink
               href='https://www.meetup.com/nl-NL/agile-limburg/'
               target='_blank'
@@ -123,7 +123,7 @@ export default function HomePage() {
             </ArrowLink>
           </p>
 
-          <p className='mt-10 text-sm text-gray-200'>
+          <p className='mt-4 text-sm text-gray-200'>
             <ArrowLink href='https://github.com/nicknijenhuis/' target='_blank'>
               Bekijk mijn projecten op GitHub
             </ArrowLink>
