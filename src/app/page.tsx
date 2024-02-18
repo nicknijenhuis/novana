@@ -15,6 +15,7 @@ import {
 
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
+import Projects from '@/components/Projects';
 
 /**
  * SVGR Support
@@ -40,19 +41,14 @@ export default function HomePage() {
           </p>
           <p className='mt-2 text-sm text-gray-200 max-w-3xl'>
             Novana helpt teamprocessen te vereenvoudigen en het resultaat te
-            verhogen door gebruik van de combinatie tussen softwarekennis én
-            kennis van het proces. Nick laat teams van binnenuit groeien door
-            gebruik van gezond verstand en creatieve ideeën. Neem eens contact
-            op als je ideeën wilt opdoen of over mogelijkheden wilt praten.
+            verhogen door gebruik te maken van de combinatie tussen
+            softwarekennis én kennis van het proces. We laten teams van
+            binnenuit groeien door gebruik van gezond verstand en creatieve
+            ideeën. Bovendien bieden we gespecialiseerde diensten op het gebied
+            van softwareontwikkeling en softwarearchitectuur, waardoor we
+            diverse oplossingen kunnen bieden. Neem gerust contact op als je
+            ideeën wilt opdoen of over mogelijkheden wilt praten.
           </p>
-
-          <ButtonLink
-            className='mt-6'
-            href='https://www.linkedin.com/in/nicknijenhuis/'
-            target='_blank'
-          >
-            Zie Linked-IN
-          </ButtonLink>
 
           <section className='bg-dark text-white'>
             <div className='py-6 text-center space-y-2 mt-2 text-gray-200'>
@@ -108,6 +104,16 @@ export default function HomePage() {
               </div>
             </div>
           </section>
+
+          <Projects />
+
+          <ButtonLink
+            className='mt-6'
+            href='https://www.linkedin.com/in/nicknijenhuis/'
+            target='_blank'
+          >
+            Zie Linked-IN
+          </ButtonLink>
 
           <p className='mt-4 text-sm text-gray-200'>
             <ArrowLink
