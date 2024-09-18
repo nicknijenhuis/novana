@@ -12,30 +12,6 @@ const projects = [
     },
   },
   {
-    id: 2,
-    title: 'Action.com',
-    href: 'https://www.action.com/nl-nl/',
-    description: '',
-    imageUrl:
-      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/ebhcstd0iejb41f9wcip',
-    author: {
-      name: 'Action (Europa)',
-      imageUrl: '',
-    },
-  },
-  {
-    id: 3,
-    title: 'Carnaval-Radio.nl',
-    href: 'https://carnaval-radio.nl/',
-    description: '',
-    imageUrl:
-      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/eknz8pchhwj00xs7tdcp',
-    author: {
-      name: 'Stichting Carnaval-Radio',
-      imageUrl: '',
-    },
-  },
-  {
     id: 4,
     title: 'Street Art Cities - Artist profiles & Experiences',
     href: 'https://streetartcities.com/',
@@ -48,6 +24,18 @@ const projects = [
     },
   },
   {
+    id: 2,
+    title: 'Action.com',
+    href: 'https://www.action.com/nl-nl/',
+    description: '',
+    imageUrl:
+      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/ebhcstd0iejb41f9wcip',
+    author: {
+      name: 'Action (Europa)',
+      imageUrl: '',
+    },
+  },
+  {
     id: 5,
     title: 'De Bundeling Fysiotherapie',
     href: 'https://debundeling.nl/',
@@ -56,6 +44,18 @@ const projects = [
       'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/zx4ngksckjxb0ljnmffu',
     author: {
       name: 'De Bundeling',
+      imageUrl: '',
+    },
+  },
+  {
+    id: 3,
+    title: 'Carnaval-Radio.nl',
+    href: 'https://carnaval-radio.nl/',
+    description: '',
+    imageUrl:
+      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/eknz8pchhwj00xs7tdcp',
+    author: {
+      name: 'Stichting Carnaval-Radio',
       imageUrl: '',
     },
   },
