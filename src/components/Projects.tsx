@@ -77,7 +77,7 @@ const projects = [
     href: 'https://www.strafrechtketen.nl/actueel/nieuws/2024/04/08/twee-teams-vijf-opdrachten-drie-dagen-afspraken-en-standaarden-getest-in-heerlen',
     description: '',
     imageUrl:
-      'https://www.strafrechtketen.nl/binaries/medium/content/gallery/strafrechtketen/content-afbeeldingen/digitalisering/proefneming---2-klein.jpg',
+      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/proefneming---2-klein_ifh1zk',
     author: {
       name: 'Politie Innovatie Lab',
       imageUrl: '',
@@ -89,7 +89,7 @@ const projects = [
     href: 'https://www.carsys.online/',
     description: '',
     imageUrl:
-      'https://www.carsys.online/wp-content/uploads/2023/03/Carsys-Devices-1.png',
+      'https://res.cloudinary.com/dnbvdizhl/image/upload/f_auto,q_auto/Carsys-Devices-1_ijkwci',
     author: {
       name: 'LKQ',
       imageUrl: '',
