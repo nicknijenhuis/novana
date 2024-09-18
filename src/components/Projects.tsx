@@ -71,6 +71,30 @@ const projects = [
       imageUrl: '',
     },
   },
+  {
+    id: 7,
+    title: 'Proefneming strafrechtketen bij politie innovatielab in Heerlen',
+    href: 'https://www.strafrechtketen.nl/actueel/nieuws/2024/04/08/twee-teams-vijf-opdrachten-drie-dagen-afspraken-en-standaarden-getest-in-heerlen',
+    description: '',
+    imageUrl:
+      'https://www.strafrechtketen.nl/binaries/medium/content/gallery/strafrechtketen/content-afbeeldingen/digitalisering/proefneming---2-klein.jpg',
+    author: {
+      name: 'Politie Innovatie Lab',
+      imageUrl: '',
+    },
+  },
+  {
+    id: 8,
+    title: 'CarSystems | Slimme garagesoftware | LKQ',
+    href: 'https://www.carsys.online/',
+    description: '',
+    imageUrl:
+      'https://www.carsys.online/wp-content/uploads/2023/03/Carsys-Devices-1.png',
+    author: {
+      name: 'LKQ',
+      imageUrl: '',
+    },
+  },
 ];
 
 export default function Projects() {
