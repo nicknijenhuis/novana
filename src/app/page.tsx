@@ -116,15 +116,6 @@ export default function HomePage() {
           </ButtonLink>
 
           <p className='mt-4 text-sm text-gray-200'>
-            <ArrowLink
-              href='https://www.meetup.com/nl-NL/agile-limburg/'
-              target='_blank'
-            >
-              Join een van onze Agile Limburg Meetups
-            </ArrowLink>
-          </p>
-
-          <p className='mt-4 text-sm text-gray-200'>
             <ArrowLink href='https://github.com/nicknijenhuis/' target='_blank'>
               Bekijk mijn projecten op GitHub
             </ArrowLink>
