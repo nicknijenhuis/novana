@@ -96,11 +96,11 @@ export default function HomePage() {
             </div>
           </section>
 
-          <Services />
-
           <Projects />
 
-          <p className='mt-2 text-sm text-gray-200 max-w-3xl'>
+          <Services />
+
+          <p className='mt-6 text-sm text-gray-200 max-w-3xl'>
             Novana helpt teamprocessen te vereenvoudigen en het resultaat te
             verhogen door gebruik te maken van de combinatie tussen
             softwarekennis én kennis van het proces. We laten teams van
