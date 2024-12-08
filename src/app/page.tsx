@@ -16,6 +16,7 @@ import {
 import ArrowLink from '@/components/links/ArrowLink';
 import ButtonLink from '@/components/links/ButtonLink';
 import Projects from '@/components/Projects';
+import Services from '@/components/Services';
 
 /**
  * SVGR Support
@@ -38,16 +39,6 @@ export default function HomePage() {
           <h1 className='hidden  text-white'>NOVANA</h1>
           <p className='hidden mt-4 text-white'>
             Create better software together
-          </p>
-          <p className='mt-2 text-sm text-gray-200 max-w-3xl'>
-            Novana helpt teamprocessen te vereenvoudigen en het resultaat te
-            verhogen door gebruik te maken van de combinatie tussen
-            softwarekennis én kennis van het proces. We laten teams van
-            binnenuit groeien door gebruik van gezond verstand en creatieve
-            ideeën. Bovendien bieden we gespecialiseerde diensten op het gebied
-            van softwareontwikkeling en softwarearchitectuur, waardoor we
-            diverse oplossingen kunnen bieden. Neem gerust contact op als je
-            ideeën wilt opdoen of over mogelijkheden wilt praten.
           </p>
 
           <section className='bg-dark text-white'>
@@ -105,7 +96,20 @@ export default function HomePage() {
             </div>
           </section>
 
+          <Services />
+
           <Projects />
+
+          <p className='mt-2 text-sm text-gray-200 max-w-3xl'>
+            Novana helpt teamprocessen te vereenvoudigen en het resultaat te
+            verhogen door gebruik te maken van de combinatie tussen
+            softwarekennis én kennis van het proces. We laten teams van
+            binnenuit groeien door gebruik van gezond verstand en creatieve
+            ideeën. Bovendien bieden we gespecialiseerde diensten op het gebied
+            van softwareontwikkeling en softwarearchitectuur, waardoor we
+            diverse oplossingen kunnen bieden. Neem gerust contact op als je
+            ideeën wilt opdoen of over mogelijkheden wilt praten.
+          </p>
 
           <ButtonLink
             className='mt-6'
